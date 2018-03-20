@@ -118,9 +118,9 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="无法启动Dism++x64.exe，请确保该Dism++组件的完整性。" Link="Не може да се стартира Dism++x64.exe. Моля, ensure the integrity of компонентите на Dism++."/>
     <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Липсва критичен файл за Dism++. Моля, изтеглете отново Dism++ от www.chuyu.me."/>
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Мястото за временната директория е по-малко от 5 GB, Dism++ може да не работи правилно. Препоръчва се да се копира Dism++ на дял с повече от 1 GB свободно пространство и след това да продължи."/>
-    <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="The fundamental supporting library is missing. Unable to use boot-fix related functions."/>
-    <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ needs administrative rights to run. Please right click and select Run as Administrator to run it."/>
-    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ не позволява режим на съвместимост. Рестарт Dism++, след като го деактивирате."/>
+    <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Липсва основната поддържаща библиотека. Не могат да се използват функциите, свързани със зареждането."/>
+    <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="За да се стартира, Dism++ се нуждае от администраторски права. Моля, кликнете с десен бутон и изберете Run as Administrator за да я стартирате."/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ не позволява режим на съвместимост. Рестартира Dism++, след като го деактивирате."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="Да запазя директно или да извърша инкрементално запазване?"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Съвети: Мястото няма да се намали, ако запазите този имидж; рекомпилирайте целевия файл, ако имате нужда да се намали мястото"/>
@@ -268,7 +268,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="请输入映像存放目录" Link="Моля, въведете пътя до изображението"/>
     <String Target="请在此输入安装路径，比如C:\" Link="Моля, въведете тук пътя на инсталацията на изображението. Например, C:\"/>
     <String Target="请在此输入挂载路径，比如D:\1" Link="Моля, въведете the mounting path here. Например D:\1"/>
-    <String Target="请输入所在路径" Link="Моля, въведете the image path"/>
+    <String Target="请输入所在路径" Link="Моля, въведете пътя до имиджа"/>
     <String Target="镜像文件" Link="Имидж файл"/>
     <String Target="只读模式" Link="Само за четене"/>
     <String Target="快速挂载" Link="Бърз нмонтаж"/>
@@ -282,8 +282,8 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="浏览" Link="Преглед"/>
     <String Target="目标映像：" Link="Целеви имидж:"/>
     <String Target="请选择其中一个映像" Link="Моля, изберете имиджa"/>
-    <String Target="请在此输入映像文件路径，比如 D:\Backup.wim" Link="Моля, въведете the path to the image file. Например D:\Backup.wim"/>
-    <String Target="添加引导" Link="Add Boot"/>
+    <String Target="请在此输入映像文件路径，比如 D:\Backup.wim" Link="Моля, въведете пътя до имидж файла. Например D:\Backup.wim"/>
+    <String Target="添加引导" Link="Добави Boot"/>
     <String Target="格式化" Link="Форматирай"/>
     <String Target="释放映像" Link="Приложи имиджa"/>
     <String Target="挂载映像 " Link="Монтирай имиджa"/>
@@ -321,7 +321,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="ESD解密向导" Link="Съветник за дешифриране на ESD"/>
     <String Target="该文件似乎不是一个有效的WIM、ESD文件。" Link="Този файл изглежда не валиден WIM или ESD файл."/>
     <String Target="该文件没有被加密，无需解密。" Link="Файлът не е шифрован, не е нужно да се декриптира."/>
-    <String Target="温馨提示：Dism++将使用独有内存解密，无需担心源文件被修改。" Link="Hint: Dism++ will decrypt in its own memory to make sure source file will not be altered."/>
+    <String Target="温馨提示：Dism++将使用独有内存解密，无需担心源文件被修改。" Link="Съвет: Dism ++ ще декриптира в собствената си памет, за да се увери, че файлът на източника няма да бъде променен."/>
 
     <!--映像编辑-->
     <String Target="温馨提示：双击可修改映像信息对应的值。" Link="Съвети: може да променяте стойностите с двойно кликване"/>
